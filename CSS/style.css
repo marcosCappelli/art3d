@@ -7,7 +7,7 @@ body {
 }
 h1, h2, h3, h4, h5, p, span {
   margin: 0;
-  color: #fff;
+  color: rgb(18, 7, 7);
 }
 .container {
   max-width: 1920px;
@@ -99,11 +99,78 @@ nav:after {
 }
 
 #search-form p {
+  color: aqua;
   margin-top: 30px;
   margin-bottom: 80px;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 750;
   background-color: #666;
   opacity: 0.8;
 }
 /*footer*/
+footer {
+background-color: rgb(18, 173, 190);
+padding-top: 0,5cm;
+padding-bottom: 20px;
+border-top: 8px solid #ffffff; 
+}
+
+footer h2, footer p, footer a, footer span {
+  color: #d1d1d1; 
+}
+
+footer h2 {
+  font-weight: 900;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer-box {
+  width: 30%;
+  padding: 1%;
+  float: left;
+}
+
+footer .wrapper:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.footer-list.footer-articles-list span {
+  display: block;
+  float: none;
+}
+
+.fab { 
+font-size: 30px;
+margin-left: 10px;
+float: left;
+}
+
+.footer-list li span {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff;
+}
+
+.footer-bottom p {
+  font-weight: 900;
+  margin-top: 10px;
+  }
+
+
