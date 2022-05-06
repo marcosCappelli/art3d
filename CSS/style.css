@@ -95,6 +95,7 @@ nav:after {
   font-size: 60px;
   background-color: #666;
   opacity: 0.8;
+  color: aqua;
 }
 
 #search-form p {
@@ -105,19 +106,4 @@ nav:after {
   background-color: #666;
   opacity: 0.8;
 }
-
-#footer {
-  position: relative;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1cm;
-  padding-bottom: 1cm;
-  text-align: center;
-}
-
-.div-footer i {
-  text-decoration: none;
-  color: rgb(222, 21, 21);
-  transition: .5s;
-}
+/*footer*/
