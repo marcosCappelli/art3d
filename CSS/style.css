@@ -1,22 +1,72 @@
+/*Geral*/
+html {
+  font-family: 'open Sans', sans-serif;
+}
+body {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, p, span {
+  margin: 0;
+  color: #666;
+}
+.container {
+  max-width: 1920px;
+  width: 100%;
+}
 
+/*header*/
+header {
+  position: relative;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+/*navbar*/
+nav {
+  position: fixed;
+  top: 0;
+  height:100px;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+nav:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.nav-container {
+  max-width: 1200px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-p {
-  font-family: verdana;
-  font-size: 40px;
-  color: rgb(66, 25, 188);
+#logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
 }
-h1 {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 60px;
-  color: rgb(50, 164, 120);
-  text-align: center;
+
+.nav-container ul {
+  float: right;
+  height: 100px;
+  line-height: 100px;
+  margin: 0;
 }
-h6 {
-  font-size: 90px;
+
+.nav-container li {
+  list-style: none;
+  float: left;
+  margin: 0 15px;
 }
-img {
-  border-radius: 20px;
-  border-style: solid;
-  border-color: rgb(231, 117, 72);
-  border-width: 1ch;
+
+.nav-container li a {
+  text-decoration: none;
+  color: #666;
+  transition: .5s;
+}
+.nav-container li a:hover {
+  color: #3381f3;
 }
